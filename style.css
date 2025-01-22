@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-image: url('images/cartoonic_bg.webp');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#cartoon-selection {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-items: center;
+  margin-top: 20px;
+}
+
+.cartoon {
+  background-color: #faf6f6;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(226, 228, 220, 0.1);
+  cursor: pointer;
+}
+
+.cartoon img {
+  width: 120px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.cartoon p {
+  margin-top: 10px;
+  font-size: 18px;
+  font-style: italic;
+}
+.img {
+  width: 20px;
+  height: 30px;
+  object-fit: cover;
+}
